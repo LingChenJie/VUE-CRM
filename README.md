@@ -19,11 +19,14 @@
 
 ## 改造 tabbar 为 router-link
 
+
 ## 设置路由高亮
+    linkActiveClass: 'mui-active'
 
 ## 点击 tabbar 中的路由链接，展示对应的路由组件
 
 ## 制作首页轮播图布局
+    mt-swipe
 
 ## 加载首页轮播图数据
 1. 获取数据， 如何获取呢， 使用 vue-resource
