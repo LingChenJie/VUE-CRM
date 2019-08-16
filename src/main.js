@@ -8,6 +8,10 @@ Vue.use(VueRouter)
 import VueResource from 'vue-resource'
 // 安装 vue-resource
 Vue.use(VueResource)
+// 设置根请求路径
+Vue.http.options.root = 'http://www.liulongbin.top:3005'
+
+// 导入格式化时间的插件
 
 // 导入 mint-ui 相关组件
 import { Header, Swipe, SwipeItem  } from 'mint-ui'
